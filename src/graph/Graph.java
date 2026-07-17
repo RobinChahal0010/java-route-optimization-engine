@@ -25,7 +25,12 @@ public class Graph {
                 .add(new Edge(source, weight));
     }
     public void removeRoad(String source,
-                           String destination)
+                           String destination){
+
+        if (!adjList.containsKey(source) || !adjList.containsKey(destination)) {
+            System.out.println("One or both cities do not exist.");
+            return;
+        }
 
     public Map<String, List<Edge>> getAdjList() {
         return adjList;
