@@ -24,6 +24,8 @@ public class Graph {
         adjList.get(destination)
                 .add(new Edge(source, weight));
     }
+    public void removeRoad(String source,
+                           String destination)
 
     public Map<String, List<Edge>> getAdjList() {
         return adjList;
