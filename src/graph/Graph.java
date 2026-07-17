@@ -31,6 +31,8 @@ public class Graph {
             System.out.println("One or both cities do not exist.");
             return;
         }
+        boolean removed = false;
+
 
     public Map<String, List<Edge>> getAdjList() {
         return adjList;
