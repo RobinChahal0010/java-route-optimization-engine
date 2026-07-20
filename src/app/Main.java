@@ -1,4 +1,4 @@
-// main working log
+// main working l
 package app;
 
 import algorithms.Dijkstra;
