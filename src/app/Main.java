@@ -1,4 +1,4 @@
-// main working
+// main work
 package app;
 
 import algorithms.Dijkstra;
